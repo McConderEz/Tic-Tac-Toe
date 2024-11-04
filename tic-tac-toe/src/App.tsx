@@ -1,12 +1,11 @@
-import { Box, AppBar, Toolbar, Typography, Button } from "@mui/material";
-import "./index.css";
-import Board from "./pages/User";
+import { Box, AppBar, Button } from "@mui/material";
+import Game from "./pages/TicTacToe/Game";
 
 export function App() {
   return (
     <div>
       <Header />
-      <Board />
+      <Game />
     </div>
   );
 }
